@@ -1,6 +1,7 @@
 /* Mobile first queries */
 /* applies to ALL widths */
 .header {padding: 30px 0 20px 0;
+    margin-bottom: 25px;
     background-image: url(../imgs/header.jpg);
     background-size: cover; }
 
@@ -16,12 +17,13 @@
 
 .nav { text-align: right; }
 
-.nav .button { width: 48%; margin: 2px 0;}
+.nav .button { width: 48%;
+    margin: 2px 0;}
 
 .button { background-color: rgba(255,255,255,.5); }
 
-.button:hover { background-color: rgba(255,255,255,.3);
-                                                                                }
+.button:hover { background-color: rgba(255,255,255,.3);}
+
 .action { text-align: center;
     padding-top: 37px;}
 
@@ -39,7 +41,7 @@ h2 { font-size: 2.5rem; }
 /* Larger than mobile */
 /* applies to all widths 400px and greater */
 @media (min-width: 400px) {
- 
+
 }
 
 /* Larger than phablet */
@@ -66,14 +68,13 @@ h2 { font-size: 2.5rem; }
 @media (min-width: 750px) {
     .logo { font-size: 3rem;
         position: relative;
-        top: 5px;
-    }
+        top: 5px;}
 }
 
 /* Larger than desktop */
 /* applies to all widths 100px and greater */
 @media (min-width: 1000px) {
-  
+
 }
 
 /* Larger than Desktop HD */
